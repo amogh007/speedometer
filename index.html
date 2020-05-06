@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+    <style>
+      *{
+        background: slategray;
+      }
+     
+
+        form{
+          background: white;
+          width: 180px;
+          padding: 10px;
+          border: 2px solid gray;
+          margin: 5px;
+          float: left;
+          font-family: Arial
+        }
+        form label{
+          background: white;
+          
+        }
+        form input{
+          background: white;
+        }
+        #submit{
+          background: black;
+          color: white;
+          margin: 5px 100px 0 0;
+          padding: 10px;
+          border-radius: 10%;
+         cursor: pointer;
+        }
+        canvas{
+           margin: 10vh 30vh;
+           
+           border-radius: 50%;
+           padding: 0;
+        }
+        </style>  
+</head>
+  <body>
+        
+  <canvas id="canvas"></canvas>
+
+ 
+  <form>
+    <label for="fname">Enter Speed</label>
+    <input type="text" id="speed" name="fname">
+    <h3 id="submit">submit</h3>
+  </form>
+  
+  <script type = "text/javascript" src = "main.js"></script>
+</body>
+
+</html>
